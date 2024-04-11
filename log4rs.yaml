@@ -1,0 +1,13 @@
+appenders:
+  console:
+    kind: console
+
+  file:
+    kind: file
+    path: "cyberguard.log"
+
+root:
+  level: info
+  appenders:
+    - console
+    - file
